@@ -21,8 +21,14 @@ void cmdEngine::start_cmdEngine() {
 	cout << "Command Line Engine Active...\n\n"; 
 	/*
 	*/
+	int x = 0;
 	while (1) {
-		cout << ">>>>"; 
+		cout << ">>>>";
+		if (x == 0)
+		{
+			cin.ignore();
+			++x;
+		}
 		getline(cin, cmd); //get input
 		process(cmd); //process 
 		cout << "proccessed : " << cmd << "\n";
