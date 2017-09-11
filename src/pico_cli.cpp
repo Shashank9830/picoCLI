@@ -66,7 +66,7 @@ void get_syntax(int ch)
 
 		cout << "\n Example : write file [readme.txt] <This is a readme file>" << endl;
 
-		cout << "\n "This is a readme file" will be appended to readme.txt" << endl;
+		cout << "\n \"This is a readme file\" will be appended to readme.txt" << endl;
 		cout << " If the file doesn't exists a new file will be created" << endl;
 
 		cout << "\n NOTE : <user input here> parameter is optional" << endl;
